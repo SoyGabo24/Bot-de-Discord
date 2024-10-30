@@ -7,7 +7,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix='/', intents=intents)
-TOKEN = "MTI5ODczOTkwNDMxODI3OTczMA.GqXaQ0.8yiC3HLOVMFGZEVHtvhA-BEdu44VTTRNp_DMRY"
+TOKEN = "your token"
 
 @bot.event
 async def on_ready():
